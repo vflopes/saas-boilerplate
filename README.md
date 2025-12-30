@@ -7,4 +7,5 @@ This boilerplate is opinionated and designed to follow best practices, but it is
 ## Documentation
 
 - [Backlog Structure Guide](docs/backlog-structure.md)
+- [Acceptance Criteria Guidelines](docs/acceptance-criteria.md)
 - [Definition of Done](docs/definition-of-done.md)
