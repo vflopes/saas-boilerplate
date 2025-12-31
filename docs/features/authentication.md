@@ -22,5 +22,7 @@ Those rules are validated both on the client-side (frontend) and server-side (ba
 
 <details>
 <summary><b>Related backlog items</b></summary>
-- vflopes/saas-boilerplate#15
+<ul>
+<li>User Story: vflopes/saas-boilerplate#15</li>
+</ul>
 </details>
