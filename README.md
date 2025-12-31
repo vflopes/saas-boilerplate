@@ -10,6 +10,14 @@ This boilerplate is opinionated and designed to follow best practices, but it is
 - [Acceptance Criteria Guidelines](docs/acceptance-criteria.md)
 - [Definition of Done](docs/definition-of-done.md)
 
+## Features
+
+- [User authentication](./docs/features/authentication.md) and authorization
+- Compliance and data protection
+- Product engineering and analytics
+- Machine Learning general use cases
+- Interfaces: web and mobile
+
 ## Repositories
 
 - [saas-python-lib](vflopes/saas-python-lib): A Python library with common functions and utilities for SaaS applications written in Python (e.g., settings loading, reCaptcha validation and etc).
