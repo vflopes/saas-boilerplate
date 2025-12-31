@@ -2,8 +2,6 @@
 
 ## For User Stories and Technical Tasks
 
----
-
 ## 1. Purpose of Acceptance Criteria
 
 Acceptance Criteria (AC) define when a specific backlog item is correct.
@@ -19,8 +17,6 @@ Acceptance Criteria:
 - Do NOT describe architecture or design decisions
 
 They define observable behavior and constraints.
-
----
 
 ## 2. Scope and Ownership
 
@@ -38,8 +34,6 @@ They define observable behavior and constraints.
 - Architectural Decisions (ADRs)
 
 Each backlog item has its own Acceptance Criteria.
-
----
 
 ## 3. Core Principles
 
@@ -60,8 +54,6 @@ Bad:
 
 - Password validation should be user-friendly.
 
----
-
 ### 3.2 Focus on behavior, not implementation
 
 Acceptance Criteria describe what happens, not how it is built.
@@ -81,8 +73,6 @@ Bad:
 
 - The frontend must call reCAPTCHA v3 before submitting the form.
 
----
-
 ### 3.3 Describe observable outcomes
 
 Write Acceptance Criteria from the perspective of:
@@ -98,8 +88,6 @@ Bad:
 
 - An exception is thrown when verification fails.
 
----
-
 ### 3.4 Keep Acceptance Criteria specific to the item
 
 Acceptance Criteria apply only to the current backlog item.
@@ -111,8 +99,6 @@ Do not repeat:
 - Deployment requirements
 
 These belong in the Definition of Done.
-
----
 
 ## 4. Structure and Formatting
 
@@ -131,8 +117,6 @@ This makes it:
 - Easy to review
 - Easy to validate
 
----
-
 ### 4.2 Group criteria when helpful
 
 If an item has multiple dimensions, group them logically.
@@ -150,8 +134,6 @@ Example:
 
 - [ ] Feedback is shown immediately
 - [ ] Feedback explains the failure
-
----
 
 ## 5. Writing Acceptance Criteria for User Stories
 
@@ -175,8 +157,6 @@ Acceptance Criteria:
 - If any rule is not satisfied, the user receives immediate feedback.
 - Feedback clearly indicates which rule(s) are failing.
 - Password validation feedback updates as the user types.
-
----
 
 ## 6. Writing Acceptance Criteria for Technical Tasks
 
@@ -202,8 +182,6 @@ Acceptance Criteria:
 - If a verified ownership factor is already associated with another account, the operation does not proceed.
 - The user receives clear guidance when the operation cannot be completed.
 
----
-
 ## 7. Common Mistakes to Avoid
 
 ### Mixing Acceptance Criteria with Definition of Done
@@ -216,8 +194,6 @@ Do not include:
 
 These belong in the Definition of Done.
 
----
-
 ### Writing Acceptance Criteria as implementation steps
 
 Avoid:
@@ -227,8 +203,6 @@ Avoid:
 - The UI must render…
 
 Focus on what happens, not how.
-
----
 
 ### Being vague or subjective
 
@@ -240,8 +214,6 @@ Avoid words like:
 - Secure enough
 
 If it cannot be objectively verified, rewrite it.
-
----
 
 ## 8. Acceptance Criteria and Definition of Done
 
@@ -255,8 +227,6 @@ An item is Done when:
 
 They are complementary, not interchangeable.
 
----
-
 ## 9. When to Write Acceptance Criteria
 
 Acceptance Criteria should be written:
@@ -266,8 +236,6 @@ Acceptance Criteria should be written:
 - When uncertainty exists about expected behavior
 
 They should be reviewed and clarified before coding, not after.
-
----
 
 ## 10. Final Guideline
 

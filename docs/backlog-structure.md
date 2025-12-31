@@ -2,8 +2,6 @@
 
 ## Outcome-Driven Backlog for a SaaS Platform
 
----
-
 ## 1. Backlog Philosophy
 
 This backlog is **outcome-oriented**, not feature-driven.
@@ -12,8 +10,6 @@ This backlog is **outcome-oriented**, not feature-driven.
 > We start by defining outcomes, forming hypotheses, placing bets, and validating them through experiments.
 
 The backlog is a **decision system**, not a task list.
-
----
 
 ## 2. Core Backlog Items
 
@@ -27,11 +23,7 @@ The backlog is composed of **five distinct item types**, each with a clear purpo
 
 Each item answers a **different question** and operates at a different level of decision-making.
 
----
-
 ## 3. Item Definitions
-
----
 
 ### 3.1 Milestones (Outcomes)
 
@@ -64,8 +56,6 @@ Define _what change in the world we want to see_.
 
 A Milestone exists until the outcome is achieved or intentionally abandoned.
 
----
-
 ### 3.2 Hypotheses
 
 **Purpose**  
@@ -90,8 +80,6 @@ as measured by [signal Z].
 **Rule**  
 If it cannot be measured or falsified, it is not a hypothesis.
 
----
-
 ### 3.3 Bets
 
 **Purpose**  
@@ -115,8 +103,6 @@ A Bet represents a decision to invest time and effort to validate one or more hy
 - Bet on PostHog as the experimentation and analytics backbone.
 
 A Bet can succeed, fail, or partially validate assumptions. All outcomes are acceptable.
-
----
 
 ### 3.4 Experiments
 
@@ -144,8 +130,6 @@ An experiment is the smallest implementation that tests a hypothesis.
 Experiments are disposable.  
 Learning is not.
 
----
-
 ### 3.5 Delivery Items (User Stories / Technical Tasks)
 
 **Purpose**  
@@ -166,11 +150,7 @@ These are the only backlog items that describe implementation details.
 
 Delivery items must link to a Hypothesis, Bet, or Experiment.
 
----
-
 ## 4. How Items Relate
-
----
 
 ### 4.1 Hierarchy
 
@@ -182,8 +162,6 @@ Milestone (Outcome)
                 └── Delivery Item
 ```
 
----
-
 ### 4.2 Flow of Thinking
 
 1. Outcome defines _why_
@@ -192,11 +170,7 @@ Milestone (Outcome)
 4. Experiment defines _how we learn_
 5. Delivery Items define _what we build_
 
----
-
 ## 5. Relationship Rules
-
----
 
 ### Rule 1 — No Orphan Work
 
@@ -208,8 +182,6 @@ Every Delivery Item must link to:
 
 If it does not, it is likely waste.
 
----
-
 ### Rule 2 — Features Are Not First-Class Citizens
 
 Features are not managed as a primary backlog type.
@@ -220,8 +192,6 @@ Features:
 - Are outcomes of learning
 - Are not planning artifacts
 
----
-
 ### Rule 3 — Experiments Are Not Always User-Facing
 
 Many experiments are:
@@ -231,8 +201,6 @@ Many experiments are:
 - Short-lived
 
 This is expected and healthy.
-
----
 
 ## 6. End-to-End Example
 
@@ -257,8 +225,6 @@ Bet on implementing passwordless and WebAuthn before classic MFA.
 - Tenant-level MFA enforcement.
 - Hardened account recovery flows.
 
----
-
 ## 7. Why This Structure Matters
 
 This backlog structure:
@@ -271,8 +237,6 @@ This backlog structure:
 
 The goal is not to deliver more.  
 The goal is to learn faster and deliver the right things.
-
----
 
 ## 8. Final Guidance
 
