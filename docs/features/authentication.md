@@ -5,6 +5,8 @@ This section provides an overview of the authentication features implemented in 
 - [Authentication](#authentication)
   - [Password management](#password-management)
     - [Password strength](#password-strength)
+  - [Abuse prevention](#abuse-prevention)
+    - [reCaptcha](#recaptcha)
 
 ## Password management
 
@@ -24,5 +26,18 @@ Those rules are validated both on the client-side (frontend) and server-side (ba
 <summary><b>Related backlog items</b></summary>
 <ul>
 <li>User Story: vflopes/saas-boilerplate#15</li>
+</ul>
+</details>
+
+## Abuse prevention
+
+### reCaptcha
+
+To prevent abuse during user registration and login, the SaaS boilerplate integrates Google reCaptcha. This helps to mitigate automated attacks and ensures that only legitimate users can create accounts or access the system.
+
+<details>
+<summary><b>Related backlog items</b></summary>
+<ul>
+<li>User Story: vflopes/saas-boilerplate#16</li>
 </ul>
 </details>
