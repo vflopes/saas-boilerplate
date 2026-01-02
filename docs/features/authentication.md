@@ -7,6 +7,8 @@ This section provides an overview of the authentication features implemented in 
     - [Password strength](#password-strength)
   - [Abuse prevention](#abuse-prevention)
     - [reCaptcha](#recaptcha)
+  - [Administration](#administration)
+    - [Cleanup unverified users](#cleanup-unverified-users)
 
 ## Password management
 
@@ -39,5 +41,20 @@ To prevent abuse during user registration and login, the SaaS boilerplate integr
 <summary><b>Related backlog items</b></summary>
 <ul>
 <li>User Story: vflopes/saas-boilerplate#16</li>
+</ul>
+</details>
+
+## Administration
+
+### Cleanup unverified users
+
+To maintain the integrity of the user database, unverified users who do not complete the email verification process within a specified timeframe (e.g., 24 hours) are automatically deleted. This cleanup process helps to reduce clutter and potential security risks associated with inactive accounts.
+
+To be considered verified the user must prove ownership of the email address or phone number used during registration by clicking on a verification link sent to that email.
+
+<details>
+<summary><b>Related backlog items</b></summary>
+<ul>
+<li>User Story: vflopes/saas-boilerplate#17</li>
 </ul>
 </details>
