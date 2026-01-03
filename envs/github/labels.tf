@@ -30,6 +30,16 @@ locals {
       name        = "technical-task"
       color       = "0054db"
       description = "Issues related to technical tasks"
+    },
+    {
+      name        = "improvement"
+      color       = "059bc0"
+      description = "An improvement to an existing feature or process"
+    },
+    {
+      name        = "technical-debt"
+      color       = "fc8541"
+      description = "Technical debt that needs to be addressed"
     }
   ]
 
